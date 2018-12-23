@@ -8,7 +8,7 @@ def oxford_comma(array)
   end
 end
 
-testarray = [1, 1, 1]
+testarray = [1, 1]
 
 oxford_comma(testarray)
 
