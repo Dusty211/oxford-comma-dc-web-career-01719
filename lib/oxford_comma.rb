@@ -1,6 +1,6 @@
 def oxford_comma(array)
   if array.length < 2
-    puts array.join
+    array.join
   elsif array.length == 2
     puts "two exactly"
   else
