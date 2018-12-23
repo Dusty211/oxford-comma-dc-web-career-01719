@@ -1,12 +1,11 @@
 def oxford_comma(array)
-  case ar
-    when < 2
-      puts "less than two"
-    when == 2
-      puts "two exactly"
-    when > 2
-      puts "greater than two"
-    end
+  if array.length < 2
+    puts "less than two"
+  elsif array.length == 2
+    puts "two exactly"
+  else
+    puts "greater than two"
+  end
 end
 
 testarray = [1, 1, 1]
