@@ -6,6 +6,7 @@ def oxford_comma(array)
       puts "two exactly"
     when length > 2
       puts "greater than two"
+    end
 end
 
 testarray = [1, 1, 1]
