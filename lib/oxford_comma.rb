@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  case array.length
+  case ar
     when < 2
       puts "less than two"
     when == 2
